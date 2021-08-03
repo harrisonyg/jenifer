@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JENIFER-HOME</title>
+    <link rel="shortcut icon" href="19.png" type="image/x-icon">
+    <style>
+        body {
+            margin: 0em;
+        }
+
+        .nav {
+            text-align: center;
+            margin: 0em;
+            padding: 1em;
+            background-color: #e91e63;
+            display: flex;
+
+            justify-self: auto;
+            justify-content: center;
+        }
+
+        @media (max-width:600px) {
+            .nav {
+                flex-direction: column;
+                margin: 0em;
+            }
+        }
+
+        .nav a {
+            text-decoration: none;
+            color: white;
+            width: 100%;
+            padding: 0.5em;
+            /* background-color: #e91e63; */
+
+        }
+
+        a:hover {
+            background-color: #f34f86;
+            ;
+            color: black;
+        }
+
+        .container {
+            background:url(bg.jpg);
+            background-size: 1406px;
+            position: relative;
+            width: 100%;
+            height: fit-content;
+            overflow: hidden;
+  
+
+        }
+    
+        #jcp
+        {
+            width:35em;
+        }
+        .im {
+            width: 50%;
+        
+            display:flex;
+            float:right;
+            position: absolute;
+            animation: j 5s;
+            transform: translate(100%,10px);
+            
+        }
+        @media(max-width:600px)
+        {
+            .im{
+                transform: translate(-16%,10px);
+                animation:none;
+                
+            }
+            
+        }
+
+        @keyframes j {
+            0% {
+                transform: translate(170%,10px);
+            }
+
+            100% {
+                transform: translate(100%,10px);
+            }
+        }
+        .detail
+        {
+            float: left;
+            width: 30%;
+            padding: 2em;
+            margin: 10px 10px;
+            animation :d 5s;
+            transform: translate(200px,10px);
+
+        }
+        @keyframes d
+        {
+            0%
+            {
+                transform: translate(-400px,10px);
+            }
+            100%
+            {
+                transform: translate(200px,10px);
+            }
+        }
+        @media(max-width:600px) {
+            
+            .detail
+            {
+                transform: translate(-3px,10px);
+                animation:none;
+
+            }
+        }
+        .pi
+        {
+            font-size: calc(0.5em + 1vw);
+            font-family: system-ui;
+            color :#f5f5f5;
+            text-shadow: 2px 2px 5px red;
+        }
+        #my
+        {
+            font-family: cursive;
+            color:#e91e63;
+            text-align: center;
+            font-size: 3em;
+        }
+        .pattern
+        {
+            
+            text-align: center;
+            color:#e91e63;
+            font-family: cursive;
+        }
+        .containers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 33.8em;
+    transform: scale(0.7);
+}
+@media (max-width:600px)
+{
+    .containers{
+        height: 16.8em;
+    transform: scale(0.2);
+}
+
+}
+       
+        #we
+        {
+            text-align:center;
+            width: 80%;
+            height:fit-content;
+        }
+        #imharri {
+    background: #ff7aad;
+    width: 1273px;
+    height: 870px;
+    position: absolute;
+    bottom: -14.7em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+center
+{
+    position: absolute;
+}
+    
+#l    
+{
+    
+    left: 49px;
+    position: fixed;
+    float: left;
+    display: flex;
+
+
+    border:none;
+    color:#f5f5f5;
+    
+    cursor: pointer;
+    font-size:10em;
+    font-family: system-ui;
+
+}
+#r
+{
+    right: 49px;
+    position: fixed;
+    float: left;
+    display: flex;
+
+    border:none;
+    color:#f5f5f5;
+    
+    cursor: pointer;
+    font-size:10em;
+    font-family: system-ui;
+
+}
+p{
+    margin:0;
+}
+
+    </style>
+</head>
+
+<body>
+    <div class="nav">
+
+        <a href="index.html">HOME</a>
+        <a href="dream.html">MY DREAM</a>
+        <a href="friends.html"> FRIENDS</a>
+        <a href="resume.html">RESUME</a>
+    </div>
+    <section>
+    <div class="container">
+        
+        <div class="detail">
+            <h2 class="pi">NAME : V.JENIFER</h2> 
+            <h2 class="pi">AGE : 21</h2> 
+            <h2 class="pi">HOBBIES: DANCE</h2> 
+            <h2 class="pi">EDUCATION:BCA,MSC</h2> 
+            <h2 class="pi">MY POWERFUll WEAPON: SMILE</h2> 
+            <h2 class="pi">CUTEST THING : DIMPLE</h2> 
+        </div>
+        <div class="im">
+            <img id="jcp" src="19.png">
+        </div>
+    </div>
+    </section>
+    <p id="my">my world </p>
+    <div class="pattern"><p>💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄💄</p></div>
+    </div>
+     <containers>
+
+        <div class="containers">
+           
+            <div id="imharri">
+                <img src="g://javascript/jeni/0.jpeg" id="we">
+            </div>
+            <center>
+                <div id="l">
+                    <p> < </p>
+                </div>
+                <div id="r">
+                    <p> > </p>
+                </div>
+            </center>
+            
+        </div>
+    </containers>
+
+
+
+    <script>
+         const l = document.getElementById('l');
+        const r = document.getElementById('r');
+
+        //    const c=document.getElementById('check');
+        const im = document.getElementById('imharri');
+        var num = 0;
+
+
+        r.addEventListener('click', rs)
+       
+
+
+ function rs() {
+            if (num <= 1) {
+                num++;
+            }
+            else {
+                return;
+            }
+            im.innerHTML = `<img  id="we" src="g://javascript/jeni/${num}.jpeg">`;
+            console.log(num)
+        }
+        l.addEventListener('click', ls)
+        function ls() {
+            if (num >= 1) {
+                num--;
+            }
+            else {
+                return;
+            }
+            
+            im.innerHTML = `<img  id="we" src="g://javascript/jeni/${num}.jpeg ">`;
+            console.log(num)
+        }
+
+       </script>
+
+</body>
+
+</html>
