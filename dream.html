@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,7 +9,8 @@
     <style>
         body {
             margin: 0em;
-            
+            background-image: url(bg.jpg);
+
 
         }
 
@@ -44,20 +46,51 @@
             ;
             color: black;
         }
+        .grid{
+            width: fit-content;
+            display:grid;
+            margin: 3em;
+            grid-template-columns: auto auto auto;
+            /* padding: 39px; */
+            grid-gap: 2em;
+            text-align: center;
+        }
+
+    @media (max-width:600px)
+    {
+        .grid{
+            grid-template-columns: none;
+        }
+    }
+        .igrid
+        {
+            text-align: center;
+            border: 10px solid #fe8484;
+        }
+        img{
+            width: 100%;
+        }
+        h1{
+            font-family: cursive;
+    font-size: small;
+    color: blueviolet;
+        }
+
     </style>
 </head>
+
 <body>
     <div class="nav">
-       
+
         <a href="index.html">HOME</a>
         <a href="dream.html">MY DREAM</a>
         <a href="friends.html"> FRIENDS</a>
         <a href="resume.html">RESUME</a>
 
     </div>
-    
+
     <style>
-        .dr {
+        /* .dr {
             padding: 50px;
             transition: transform.5s;
             width: 200px;
@@ -131,91 +164,54 @@
         .bg
         {
             
-        }
+        } */
     </style>
-    <div class="bg">
-        <img src="bg.jpg" alt="">
-    </div>
 
-    <div class="dr">
-        <img src="/javascript/jeni/pro.jpeg" class="dii">
+<div class="grid">
 
-    </div>
-    <div class="blin">
-        <h1 class="hes">
-            <h class="d">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I LOVE TO BE PROFESSOR</h><br> PROFESSOR:Who can bulid the<br> student in Good Way I want to became<br> like my teachers who make me feel <br>like i am proud to
-            being their student
-
-        </h1>
-    </div>
-    <div class="side">
-        <img src="/javascript/jeni/por2.jpeg" class="dii">
-
-    </div>
-    <div class="drr">
-        <img src="/javascript/jeni/mal.jpeg" class="dii">
-
-    </div>
-    <div class="bli">
-        <h1 class="he">
-            <h class="d">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MALDIVES AND SWITZERLAND</h><br>I like to fly around the world like<br> bird used to fly to different places<br> Where you can find innerpeace<br>The places you like the most
+    <img src="/javascript/jeni/pro.jpeg" class="igrid">
 
 
-        </h1>
-    </div>
-    <div class="side1">
-        <img src="/javascript/jeni/swi.jpeg" class="dii">
+    <h1 class="igrid">
+        <h>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; I LOVE TO BE
+            PROFESSOR</h><br> PROFESSOR:Who can bulid the<br> student in Good Way I want to became<br> like my teachers
+        who make me feel <br>like i am proud to
+        being their student
 
-    </div>
-    <div class="drrr">
-        <img src="/javascript/jeni/work.jpeg" class="dii">
+    </h1>
 
-    </div>
-    <div class="blii">
-        <h1 class="he">
-            <h class="d">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WORK IN ABOARD</h><br>I can say that this is my big <br>dream to work in upboard Mostly.!!! <br>To be independent women<br>I want to be prove
-            myself most
 
-        </h1>
-    </div>
-    <div class="side2">
-        <img src="/javascript/jeni/work2.jpeg" class="dii">
+    <img src="/javascript/jeni/por2.jpeg" class="igrid">
 
-    </div>
-    <style>
-        .he {
-            animation-name: soo;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
-        
-        @keyframes soo {
-            from {
-                color: whitesmoke;
-            }
-            to {
-                color:skyblue;
-            }
-        }
-        
-        .hes {
-            animation-name: soo;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-        }
-        
-        @keyframes soo {
-            from {
-                color: whitesmoke;
-            }
-            to {
-                color:skyblue;
-            }
-        }
-    </style>
+    <img src="/javascript/jeni/mal.jpeg" class="igrid">
+
+    <h1 class="igrid">
+        <h >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;MALDIVES AND SWITZERLAND</h><br>I like to fly around the
+        world like<br> bird used to fly to different places<br> Where you can find innerpeace<br>The places you like the
+        most
+    </h1>
+
+    <img src="/javascript/jeni/swi.jpeg" class="igrid">
+
+
+
+    <img src="/javascript/jeni/work.jpeg" class="igrid">
+
+
+    <h1 class="igrid">
+        <h >
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;WORK
+            IN ABOARD</h><br>I can say that this is my big <br>dream to work in upboard Mostly.!!! <br>To be independent
+        women<br>I want to be prove
+        myself most
+
+    </h1>
+
+
+    <img src="/javascript/jeni/work2.jpeg" class="igrid">
+</div>
+
 
 </body>
 
-</html>
-</body>
 </html>
