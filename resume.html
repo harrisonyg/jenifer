@@ -1,12 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JENIFER-RESUME</title>
     <style>
-     body {
+        body {
             margin: 0em;
         }
 
@@ -33,6 +34,7 @@
             color: white;
             width: 100%;
             padding: 0.5em;
+
             /* background-color: #e91e63; */
 
         }
@@ -42,17 +44,201 @@
             ;
             color: black;
         }
+      
+
+        .container {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+            text-align: center;
+
+        }
+
+        .con1 {
+            background-color: #8ce8d5;
+            width: 100%;
+            height: fit-content;
+        }
+
+        .pro {
+            width: 150px;
+            border-radius: 50%;
+            background-color: white;
+            margin: 2em 2em 1em 2em;
+        }
+
+        h2 {
+            color: white;
+            font-family: sans-serif;
+
+        }
+
+        h4 {
+            color: white;
+            font-family: sans-serif;
+
+        }
+
+        .in {
+            width: 20px;
+            margin-bottom: 2em;
+        }
+
+        h1,
+        h3,
+        h5,
+        .h2 {
+            font-family: sans-serif;
+            color: rgb(53, 53, 53);
+
+        }
+
+        .con3 {
+            background-color: rgb(210, 255, 142);
+            display: grid;
+            justify-content: center;
+        }
+
+        .inco {
+            display: grid;
+            grid-template-columns: auto auto;
+            width: fit-content;
+            margin-left:8em;
+            margin-bottom: 1em;
+        }
+        @media (max-width:600px)
+        {
+            .inco{
+                grid-template-columns: none;
+                margin-left:2em;
+            }
+        }
+
+
+
+        .html {
+            display: flex;
+            text-align: start;
+            flex-direction: column;
+            width: fit-content;
+        }
+
+        svg {
+            height: 10px;
+            width: 70%;
+        }
+        .con5
+        {
+            background-color: #242424;
+        }
     </style>
 </head>
+
 <body>
     <div class="nav">
-       
+
         <a href="index.html">HOME</a>
         <a href="dream.html">MY DREAM</a>
         <a href="friends.html"> FRIENDS</a>
         <a href="resume.html">RESUME</a>
-    
-        
+
+
+    </div>
+    <div class="container">
+        <div class="con1">
+            <img src="pro.jpeg" class="pro">
+            <h2>Jenifer V</h2>
+            <h4>Loyola College</h4>
+            <container>
+                <a href="www.linkedin.com/in/jenifer-rebeka-a773aa213" style="background-color: #f0f8ff00;"><img src="ico/in.png" class="in"></a>
+                
+            </container>
+
+
+        </div>
+        <div class="con2">
+            <h1>About Me</h1>
+            <h4 style="margin:0em;color: rgb(53, 53, 53);">Hey there! I'm Jenifer,</h3> <br>
+            <h4 style="margin:0em;color: rgb(53, 53, 53);">a 21 years old computer science student at Loyola College.></h3><br>
+            <h4 style=" margin-top:0em;color: rgb(53, 53, 53);">I did my intern @GEM3S TECHNOLOGIES PVT LTD</h3>
+                 
+        </div>
+        <div class="con3">
+            <h2 class="h2">SKILL
+
+            </h2>
+            <div class="inco">
+                <div class="html">
+                    <h5>HTML/CSS</h5>
+                    <!-- <canvas></canvas> -->
+                    <svg>
+
+                        <rect width="100%" height="10px" style="fill:rgb(255, 255, 255)" />
+                        <rect width="40%" height="10px" style="fill:#8f8fe0" />
+
+                    </svg>
+                </div>
+                <div class="html">
+                    <h5>Java</h5>
+                    <!-- <canvas></canvas> -->
+                    <svg>
+
+                        <rect width="100%" height="10px" style="fill:rgb(255, 255, 255)" />
+                        <rect width="60%" height="10px" style="fill:#ff7b7b" />
+
+                    </svg>
+                </div>
+                <div class="html">
+                    <h5>javascript</h5>
+                    <!-- <canvas></canvas> -->
+                    <svg>
+
+                        <rect width="100%" height="10px" style="fill:rgb(255, 255, 255)" />
+                        <rect width="40%" height="10px" style="fill:#ff7b7b" />
+
+                    </svg>
+                </div>
+                <div class="html">
+                    <h5>python</h5>
+                    <!-- <canvas></canvas> -->
+                    <svg>
+
+                        <rect width="100%" height="10px" style="fill:rgb(255, 255, 255)" />
+                        <rect width="40%" height="10px" style="fill:#8f8fe0" />
+
+                    </svg>
+                </div>
+                <div class="html">
+                    <h5>C/C++</h5>
+                    <!-- <canvas></canvas> -->
+                    <svg>
+
+                        <rect width="100%" height="10px" style="fill:rgb(255, 255, 255)" />
+                        <rect width="40%" height="10px" style="fill:#8f8fe0" />
+
+                    </svg>
+                </div>
+                <div class="html">
+                    <h5>PHP</h5>
+                    <!-- <canvas></canvas> -->
+                    <svg>
+
+                        <rect width="80%" height="10px" style="fill:rgb(255, 255, 255)" />
+                        <rect width="60%" height="10px" style="fill:#ff7b7b" />
+
+                    </svg>
+                </div>
+            </div>
+
+        </div>
+        <div class="con4">
+            <h4 style="color:#242424;font-family: system-ui;"> To work in a challenging environment, that demants all my skills and knowledge.<br>
+            </h4>
+        </div>
+        <div class="con5">
+            <h1 style="color:#f5f5f5">made with ❤️</h1>
+        </div>
     </div>
 </body>
+
 </html>

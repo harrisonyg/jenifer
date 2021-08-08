@@ -8,6 +8,8 @@
     <style>
      body {
             margin: 0em;
+            background:url(red.jpg);
+            background-size:cover;
         }
 
         .nav {
@@ -43,104 +45,30 @@
             color: black;
         }
         
-.dd {
- 
- height: 160px;
- transform: rotate(50deg);
- position: relative;
- right: -3em;
- top: 10px;
-}
+        .grid{
+            width: fit-content;
+            display:grid;
+            margin: 3em;
+            grid-template-columns: auto auto auto;
+            /* padding: 39px; */
+            grid-gap: 2em;
+            text-align: center;
+        }
 
-.hr {
-
- height: 160px;
- transform: rotate(50deg);
- position: relative;
- left: 25em;
- top: 10px;
-}
-
-.gg {
-
- height: 160px;
- transform: rotate(300deg);
- position: relative;
- left: 16em;
- top: 15px;
-}
-
-.hh {
-
- height: 160px;
- transform: rotate(300deg);
- position: relative;
- left: 16em;
-}
-
-.fr {
- display: flex;
- width: 100vw;
- height: 400px;
- flex-direction: row;
- position: absolute;
- top: 15em;
-}
-
-.di {
- width: 40vw;
- height: 40vh;
- flex-direction: row;
- position: relative;
- top: 30em;
-}
-
-.hl {
-
- height: 160px;
- transform: rotate(50deg);
- position: relative;
- left: 32em;
- top: 25px;
-}
-
-.ff {
- width: 100vw;
- height: 400px;
- flex-direction: row;
- position: absolute;
-}
-
-.uy {
-
- height: 160px;
- transform: rotate(50deg);
- position: relative;
- left: 4em;
- top: 32em;
-}
-
-.lo {
-
- height: 160px;
- transform: rotate(300deg);
- position: relative;
- left: 16em;
- top: 32em;
-}
-
-.cc {
-
- height: 160px;
- transform: rotate(50deg);
- position: relative;
- top: 32em;
- left: 30em;
-}
-
-.g {
- margin-top: 20px;
-}
+    @media (max-width:600px)
+    {
+        .grid{
+            grid-template-columns: none;
+        }
+    }
+        .igrid
+        {
+            text-align: center;
+            border: 10px solid #fe8484;
+        }
+        img{
+            width: 100%;
+        }
     </style>
 </head>
 <body>
@@ -153,20 +81,16 @@
     
    
     </div>
-    <div class="fr">
-        <img src="jeni/ff1.jpeg" class="dd">
-        <img src="jeni/ff2.jpeg" class="hh">
-        <img src="jeni/ff3.jpeg" class="hr">
-    </div>
-    <div class="di">
-        <img src="jeni/ff4.jpeg" class="gg">
-        <img src="jeni/ff5.jpeg" class="hl">
-    </div>
-
-    <div class="ff">
-        <img src="jeni/ff6.jpeg" class="uy">
-        <img src="jeni/f6.jpeg" class="lo">
-        <img src="jeni/f7.jpeg" class="cc">
+ 
+    <div class="grid">
+        <img src="ff2.jpeg" class="igrid">
+        <img src="ff3.jpeg" class="igrid">
+        <img src="ff1.jpeg" class="igrid">
+        <img src="ff4.jpeg" class="igrid">
+        <img src="ff5.jpeg" class="igrid">
+        <img src="ff6.jpeg" class="igrid">
+        <img src="f6.jpeg" class="igrid">
+        <img src="f7.jpeg" class="igrid">
     </div>
 </body>
 </html>
